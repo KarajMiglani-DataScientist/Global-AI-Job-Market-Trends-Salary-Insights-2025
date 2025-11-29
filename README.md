@@ -2,7 +2,7 @@
 The AI &amp; Data Job Salaries and Skills Dataset 2024–2025 is a synthetic global dataset of 15,000+ AI, data science, and ML job listings from Oct 2024–Jul 2025. It includes titles, salaries, skills, experience, company details, remote ratio, industry, dates, and benefits—useful for trend analysis and benchmarking.
 
 # Column Details
-Column Name	Description	Example Values
+Column |Name	|Description	|Example Values
 job_id	Unique identifier for each job posting	AI00001, AI00002
 job_title	Title/role advertised	AI Research Scientist, Data Analyst
 salary_usd	Annual salary converted to USD	90376, 124355
