@@ -4,7 +4,7 @@ The AI &amp; Data Job Salaries and Skills Dataset 2024–2025 is a synthetic glo
 # Column Details
 | Column | Name	| 	Description | Example Values |  
 
-job_id	Unique identifier for each job posting	AI00001, AI00002
+| job_id |	Unique identifier for each job posting	| AI00001, AI00002 |
 
 job_title	Title/role advertised	AI Research Scientist, Data Analyst
 
