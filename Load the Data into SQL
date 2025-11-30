@@ -1,0 +1,47 @@
+# Load the Data into SQL
+
+Import the cleaned file into your SQL database and run analytical queries.
+
+1. Average salary by job title:
+   SELECT job_title, ROUND(AVG(salary_usd)) AS avg_salary
+   FROM ai_jobs
+   GROUP BY job_title
+   ORDER BY avg_salary DESC;
+
+2. Salary by company location:
+   SELECT company_location, ROUND(AVG(salary_usd)) AS avg_salary
+   FROM ai_jobs
+   GROUP BY company_location
+   ORDER BY avg_salary DESC;
+
+3. Experience level distribution:
+   SELECT experience_level, COUNT(*) AS total_roles
+   FROM ai_jobs
+   GROUP BY experience_level;
+
+4. Remote trend analysis:
+   SELECT remote_ratio, COUNT(*) AS job_count
+   FROM ai_jobs
+   GROUP BY remote_ratio;
+
+5. Most in-demand skills (if using a numbers table for splitting):
+SELECT TRIM(skill) AS skill, COUNT(*) AS frequency
+FROM (
+    SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(required_skills, ',', n.n), ',', -1) AS skill
+    FROM ai_jobs
+    JOIN numbers n ON CHAR_LENGTH(required_skills)
+       - CHAR_LENGTH(REPLACE(required_skills, ',', '')) >= n.n - 1
+) AS skill_table
+GROUP BY skill
+ORDER BY frequency DESC;
+
+SQL Output Tables:
+ Average salary tables
+ Skills frequency table
+ Experience-level counts
+ Remote job counts
+ Industry-wise salary summaries
+
+
+
+
