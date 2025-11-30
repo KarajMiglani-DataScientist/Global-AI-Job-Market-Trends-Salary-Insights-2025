@@ -1,0 +1,12 @@
+# Project Workflow 
+Step 1: Data Cleaning in Excel
+Clean and prepare the dataset before loading into SQL and Power BI.
+Tasks to perform in Excel:
+Useful Excel functions:
+ TRIM
+ PROPER
+ IF
+ DATEVALUE
+ XLOOKUP
+ LEN
+ TEXT
