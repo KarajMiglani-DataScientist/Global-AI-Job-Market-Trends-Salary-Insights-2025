@@ -1,0 +1,21 @@
+# Short Form Usage :
+Experience Level: EN (Entry), MI (Mid), SE (Senior), EX (Executive).
+Employment Type: FT (Full-time), PT (Part-time), CT (Contract), FL (Freelance).
+Company Size: S (Small), M (Medium), L (Large).
+Remote Ratio: 0 (On-site), 50 (Hybrid), 100 (Remote).
+
+# Key Features
+Global Coverage: Jobs span North America, Europe, Asia, and beyond.
+Comprehensive Role Types: Includes AI researchers, ML engineers, data analysts, product managers, and more.
+Salary Benchmarking: Salaries in USD and local currencies, with company size and location context.
+Skills Mapping: Tracks in-demand skills (Python, SQL, NLP, cloud, MLOps, etc.) for each role.
+Remote Work Insights: Quantifies remote/hybrid/onsite opportunities.
+Education & Experience: Minimum qualifications and years of experience required.
+Industry Trends: Sector-wise breakdown for cross-industry analysis.
+
+# Use Cases
+Salary Analysis: Benchmark compensation across roles, countries, and industries.
+Skills Demand: Identify trending and essential skills for AI/data roles.
+Workforce Planning: Guide talent acquisition, upskilling, and organizational strategy.
+Career Research: Inform job seekers about requirements and market trends.
+Visualization & Modeling: Ideal for EDA, dashboards, and predictive analytics.
